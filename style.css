@@ -1,4 +1,5 @@
 body{
+    margin: 0%;
     // <uniquifier>: Use a unique and descriptive class name
     // <weight>: Use a value from 400 to 900
     
@@ -9,12 +10,89 @@ body{
       font-style: normal;
     }
 }
-
-
+section{
+    height: 500px;
+}
 
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
 .name-highlight{
     color: orange;
 }
+.half-width{
+    width: 40%;
+ float: left;  
+    margin-left: 5%;
+    padding-left: 2%;
+}.half-width img{
+    width: 50%;
+    height: 5%;
+    border-radius: 20%;
+    
+}
+.first-button{
+text-decoration: none;
+background-color: orange;
+padding: 10px 20px;
+color: white;
+border-radius: 5px;
+font-weight: 700;
+background-image: linear-gradient( 45deg,coral  ,rgb(248, 201, 99));
+}
+section{
+    padding-bottom: 150px;
+    height: 300px;
+}
+.second-button{
+text-decoration:none;
+border-radius: 5px;
+background-image: linear-gradient(45deg , coral ,rgb(248,201,99));
+background-color: orange;
+padding: 10px 20px;
+color: white;
+font-weight: 700;
+}
+.top-banner{
+background-image: url("images/top-banner.png");
+background-repeat: no-repeat;
+}
+.second-banner{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.single-experience{
+box-shadow: 10px 10px 40px gray;
+border-radius: 5px;
+height: 100%;
+background-color: white;
+}
+#full-stack{
+border-left: 7px solid ;
+border-image: linear-gradient(180deg, salmon, tomato );
+border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid ;
+border-image: linear-gradient(180deg,blue, aqua );
+border-image-slice: 1;
+}
+footer p{
+text-align: center;
+font-size: 12px;
+}
+
+
